@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="10dp"
+        android:layout_weight="1" >
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/button_hospital"
+                    android:background="#FFF"
+                    android:onClick="onClick_btnHospital"
+                    android:text="@string/Hospital"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Clinica"
+                    android:drawableTop="@drawable/button_clinica"
+                    android:background="#FFF"
+                    android:textSize="20sp"
+                    android:onClick="onClick_btnClinica" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Ambulancia"
+                    android:drawableTop="@drawable/button_ambulancia"
+                    android:background="#FFF"
+                    android:textSize="20sp"
+                    android:onClick="onClick_btnAmbulancia" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Bombero"
+                    android:drawableTop="@drawable/button_bombero"
+                    android:background="#FFF"
+                    android:textSize="20sp"
+                    android:onClick="onClick_btnBombero" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Serenazgo"
+                    android:drawableTop="@drawable/button_serenazgo"
+                    android:background="#FFF"
+                    android:textSize="20sp"
+                    android:onClick="onClick_btnSerenazgo"
+                     />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Mapa"
+                    android:drawableTop="@drawable/button_mapa"
+                    android:background="#FFF"
+                    android:textSize="20sp"
+                    android:onClick="onClick_btnMapa" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+ 			>
+                
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Copyright"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                 />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">S.O.S Lima</string>
+    <string name="action_settings">Settings</string>
+    <string name="Hospital">Hospitales</string>
+    <string name="Clinica">Clinicas</string>
+    <string name="Bombero">Bomberos</string>
+    <string name="Ambulancia">Ambulancias</string>
+    <string name="Mapa">Mapa</string>
+	<string name="Buscar">Buscar</string>
+	<string name="Serenazgo">Serenazgo</string>
+	<string name="Copyright">Copyright &#169; 2014 Jair</string>
+	
+</resources>
